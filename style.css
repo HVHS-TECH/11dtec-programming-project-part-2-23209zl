@@ -1,4 +1,6 @@
 .flex-container {
 display: flex;
-background-color: 
+background-color: lightgray;
+border: solid 2px black;
+text-align: center;
 }
