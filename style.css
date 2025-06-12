@@ -1,7 +1,7 @@
 header {
     text-align: center;
     background-color: lightgray;
-    border: 2px solid black;
+    border: 3px solid black;
     font-size: 25px;
 }
 
@@ -11,10 +11,14 @@ header {
     flex-direction: row;
     background-color: lightgray ;
     justify-content: space-evenly;
-    border: 2px solid black;
+    border: 3px solid black;
     font-size: 20px;
     margin-top: 0px;
     border-top-style: none;
     text-decoration: none;
     color:black;
+}
+.Mainpage {
+    text-decoration: none;
+       color:black;
 }
