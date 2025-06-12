@@ -1,14 +1,8 @@
 .flex-container {
-display: flex;
-background-color: lightgray;
-border: solid 2px black;
-height: 100px;
-text-align: center;
-font-size: 25px;
-}
-
-.flex-container > div{
-background-color: lightgray;
-border: solid 2px black;
-height: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray ;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    font-size: 25px;
 }
