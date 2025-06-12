@@ -1,13 +1,8 @@
-#AboutUs{
-background-color:lightgray;
-border: 2px solid black;
-text-align: center;
-font-size: 25px;
-margin-bottom: 0px;
-border-bottom-style: none;
+header {
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
 }
-
-
 
 
 .flex-container {
