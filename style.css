@@ -1,5 +1,10 @@
 .flex-container {
 display: flex;
+justify-content: space-evenly;
+}
+
+.flex-container > div{
 background-color: lightgray;
 border: solid 2px black;
+height: 120px;
 }
