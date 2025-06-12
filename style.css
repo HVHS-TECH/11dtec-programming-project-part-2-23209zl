@@ -17,4 +17,6 @@ border-bottom-style: none;
     justify-content: space-evenly;
     border: 2px solid black;
     font-size: 25px;
+    margin-top: 0px;
+    border-top-style: none;
 }
