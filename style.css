@@ -15,4 +15,6 @@ header {
     font-size: 20px;
     margin-top: 0px;
     border-top-style: none;
+    text-decoration: none;
+    color:black;
 }
