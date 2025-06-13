@@ -39,3 +39,7 @@ header {
     text-decoration: none;
        color:black;
 }
+
+.Mainbutton{
+    justify-self: center;
+}
