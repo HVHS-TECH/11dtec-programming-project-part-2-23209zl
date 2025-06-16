@@ -6,6 +6,7 @@
 <title>Hoop Culture - Our Products</title>
 </head>
 
+<body>
 <header>
     <h1 id="Ourproducts">Our Products</h1>
 </header>
@@ -19,12 +20,13 @@
       </div>
     </div>
   </nav>
+<h3 id="welcomeMessage"></h3>
+<form onsubmit="return false;">
+  <label>Name:</label><br>
+  <input type="text" id="input_name"><br>
+  <input type="submit" onclick="getFormInput()">
+</form>
 
-<div class="container">
-    <button id="button" type="button">Buy a basketball gear</button>
-</div>
-
-
-<body>
-
+  <script src="script.js"></script>
 </body>
+</html>
