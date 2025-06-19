@@ -4,6 +4,8 @@ function getFormInput() {
     welcomeMessage.innerHTML = message;
 }
 
-function getValue(){
-    message = message + "You chose to buy " + BasketballGear.value;
+function submitOrder() {
+   var name
+   var selectedProduct = BasketballGear.value;
+   var quantity = input_value.value;
 }
