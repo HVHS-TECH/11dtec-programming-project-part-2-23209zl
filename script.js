@@ -4,8 +4,9 @@ function getFormInput() {
     welcomeMessage.innerHTML = message;
 }
 
-function submitOrder() {
-   var name
-   var selectedProduct = BasketballGear.value;
-   var quantity = input_value.value;
+function getValueInput() {
+   question = "You chose to buy ";
+   question = question + input_value.value + " " +  BasketballGear.value;
+   summaryMessage.innerHTML = question;
 }
+
