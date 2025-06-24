@@ -10,6 +10,4 @@ function getValueInput() {
    summaryMessage.innerHTML = question;
 }
 
-function reset(){
-    
-}
+
