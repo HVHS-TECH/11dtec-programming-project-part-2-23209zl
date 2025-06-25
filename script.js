@@ -9,7 +9,6 @@ function getInfo(){
     infoMessage.innerHTML = information;
 }
 
-
 function getValueInput() {
     const gearPrices = {
         "Basketball Wristband": 2,
