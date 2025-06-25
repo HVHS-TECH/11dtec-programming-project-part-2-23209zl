@@ -20,7 +20,7 @@ function getValueInput() {
      let cost = gearPrices[gear] * quantity;
 
      question = question + quantity + " " + gear + "(s). ";
-     question = question + "The cost for this much gear you have selected is $" + cost + ".";
+     question = question + "The total cost for this much gear you have selected is $" + cost + ".";
    
     summaryMessage.innerHTML = question;
 }
