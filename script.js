@@ -19,7 +19,7 @@ function getValueInput() {
      let gear = BasketballGear.value;
      let cost = gearPrices[gear] * quantity;
 
-     question = question + quantity + " " + gear + "(s).";
+     question = question + quantity + " " + gear + "(s). ";
      question = question + "The cost for this much gear you have selected is $" + cost + ".";
    
     summaryMessage.innerHTML = question;
