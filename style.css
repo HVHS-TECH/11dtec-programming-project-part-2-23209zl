@@ -33,3 +33,58 @@ header {
     text-align: center;
 }
 
+.middle {
+    justify-self: center;
+}
+
+.infoButton{
+    height:60px;
+    width:230px;
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+     justify-content: center;
+}
+
+.grid > div{
+     border: 2px solid black;
+     padding: 20px;
+     background-color:#F2F0EF;
+
+}
+
+.wristband{
+    width: 200px;
+    height: 250px;
+}
+
+.headband{
+    width: 200px;
+    height: 250px;
+}
+
+.shoes{
+    width: 200px;
+    height: 250px;
+}
+
+.jersey{
+    width: 200px;
+    height: 250px;
+}
+
+.socks{
+    width: 200px;
+    height: 250px;
+}
+
+.shorts{
+    width: 200px;
+    height: 250px;
+}
+
+

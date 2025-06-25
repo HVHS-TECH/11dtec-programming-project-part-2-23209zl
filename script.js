@@ -10,4 +10,7 @@ function getValueInput() {
    summaryMessage.innerHTML = question;
 }
 
-
+function getInfo(){
+    information = "Hi we are Hoop Culture. We sell basketball gears. For more information please go to Basketball Gear page. Thankyou!";
+    infoMessage.innerHTML = information;
+}
