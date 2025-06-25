@@ -4,6 +4,12 @@ function getFormInput(){
     welcomeMessage.innerHTML = message;
 } 
 
+function getInfo(){
+    information = "Hi we are Hoop Culture. We sell basketball gears. For more information please go to Basketball Gear page. Thankyou!";
+    infoMessage.innerHTML = information;
+}
+
+
 function getValueInput() {
     const gearPrices = {
         "Basketball Wristband": 2,
