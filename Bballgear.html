@@ -21,41 +21,45 @@
     </div>
   </nav>
 
-       <div class="middle">
+  <div class="middle">
 
-  <h3 id="welcomeMessage"></h3>
+    <h3 id="welcomeMessage"></h3>
 
-  <form onsubmit="return false;">
-    <label>Name:</label><br>
-    <input type="text" id="input_name" required><br>
-    <input type="submit" onclick="getFormInput()">
-  </form>
-
-
-  <form onsubmit="return false;">
-    <h3 id="summaryMessage"></h3>
-
-    <br><label for="BasketballGear">Choose the gear that you want to buy</label>
-    <select id="BasketballGear" name="BasketballGear">
-      <option value="Basketball Wristband">Basketball Wristband</option>
-      <option value="Basketball Socks">Basketball Socks</option>
-      <option value="Basketball Headband">Basketball Headband</option>
-      <option value="Basketball Shorts">Basketball Shorts</option>
-      <option value="Basketball Jersey">Basketball Jersey</option>
-      <option value="Basketball Shoes">Basketball Shoes</option>
-    </select>
+    <form onsubmit="return false;">
+      <label>Name:</label><br>
+      <input type="text" id="input_name" required><br>
+      <input type="submit" onclick="getFormInput()">
+    </form>
 
 
-    <br>
-    <br><label for="input_value">How many do you want to buy?</label>
-    <input type="number" id="input_value" min="1" max="99">
+    <form onsubmit="return false;">
+      <h3 id="summaryMessage"></h3>
 
-    <br><input type="submit" onclick="getValueInput()">
+      <br><label for="BasketballGear">Choose the gear that you want to buy</label>
+      <select id="BasketballGear" name="BasketballGear">
+        <option value="Basketball Wristband">Basketball Wristband</option>
+        <option value="Basketball Socks">Basketball Socks</option>
+        <option value="Basketball Headband">Basketball Headband</option>
+        <option value="Basketball Shorts">Basketball Shorts</option>
+        <option value="Basketball Jersey">Basketball Jersey</option>
+        <option value="Basketball Shoes">Basketball Shoes</option>
+      </select>
 
-  </form>
-     </div>
+
+      <br>
+      <br><label for="input_value">How many do you want to buy?</label>
+      <input type="number" id="input_value" min="1" max="99">
+
+      <br><input type="submit" onclick="getValueInput()">
+
+    </form>
+
+    <br><input type="reset" onclick="resetInput()">
+
+  </div>
+
   <script src="script.js"></script>
 
 </body>
- 
+
 </html>
