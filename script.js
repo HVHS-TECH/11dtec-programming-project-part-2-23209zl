@@ -1,7 +1,12 @@
 function getFormInput(){
+    if (isNaN(input_name.value)){
     message = "Welcome to Hoop Culture ";
     message = message + input_name.value;
     welcomeMessage.innerHTML = message;
+} else {
+    invalidMessage = "Please enter a valid name!";
+    welcomeMessage.innerHTML = invalidMessage;
+}
 } 
 
 function getInfo(){
