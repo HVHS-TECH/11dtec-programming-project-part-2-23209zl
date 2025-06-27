@@ -89,4 +89,6 @@ header {
     height: 250px;
 }
 
-
+.textcentered{
+    text-align: center;
+}
