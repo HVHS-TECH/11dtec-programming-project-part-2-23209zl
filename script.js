@@ -38,4 +38,9 @@ function getValueInput() {
 function resetInput(){
    document.getElementById("input_name").value = "";
    document.getElementById("input_value").value = "";
+   question = "";
+   summaryMessage.innerHTML = question;
+   message = "";
+   welcomeMessage.innerHTML = message;
+
 }
