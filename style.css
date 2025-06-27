@@ -97,4 +97,5 @@ header {
 main{
     background-color: white;
     border: 3px solid black;
+    height: 900px;
 }
