@@ -92,3 +92,8 @@ header {
 .textcentered{
     text-align: center;
 }
+
+main{
+    background-color: white;
+    border: 2px solid black;
+}
